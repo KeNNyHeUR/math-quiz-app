@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Math Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>Math Quiz</h1>
+        <div id="question" class="animated"></div>
+        <input type="number" id="answer" placeholder="Your answer" class="animated">
+        <button id="submit" class="animated">Submit</button>
+        <div id="result" class="animated"></div>
+        <div id="timer" class="animated"></div>
+        <button id="next" class="animated" disabled>Next Question</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
